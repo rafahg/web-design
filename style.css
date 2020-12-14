@@ -1,3 +1,30 @@
+
+#huntr-react-container-2 {
+  display: none;
+}
+
 * {
-  background-color: blue;
+  margin: 0px;
+}
+
+div {
+  margin: 10px 10px 0 0;
+  padding: 20px;
+  background-color: #d0e8f2;
+  border: solid;
+  width: 33%;
+}
+
+.middle-container {
+  height: 200px;
+  width: 200px;
+  background-color: goldenrod;
+  margin: 0;
+}
+
+.bottom-container {
+  height: 200px;
+  width: 200px;
+  background-color: aquamarine;
+  margin: 0;
 }
