@@ -14,8 +14,13 @@ body {
 h2 {
   width: 40%;
   margin: 0 auto;
-  margin-top: 50px;
+  margin-top: 50px auto 0 auto;
   font-size: 5.625rem;
+  color: black;
+}
+
+h3 {
+  color: #11999E;
 }
 
 p {
@@ -24,21 +29,32 @@ p {
 }
 
 
+a {
+  color: #11999E;
+}
+
+
+#greeting {
+  color: #66BFBF;
+}
 .full-stack {
   font-size: 2.5rem;
   width: 35%;
   margin-bottom: 30px;
+  color: #66BFBF;
+  font-weight: normal;
 }
 
 
 .top-container  {
   position: relative;
   padding-top: 100px;
+  line-height: 550%;
 }
 
 .top-cloud {
   position: absolute;
-  top: 85px;
+  top: 50px;
   right: auto;
 
 }
@@ -50,3 +66,40 @@ p {
   margin-left: 12px;
 }
 
+
+/* profile section */
+
+
+#profile-picture {
+  width: 400px;
+  height: 400px;
+  border: solid;
+  border-radius: 50%;
+  background-color: white;
+}
+
+
+
+
+
+/* skills section */
+
+.skills-pic {
+  width: 400px;
+  height: 400px;
+  border: solid;
+  border-radius: 50%;
+
+
+}
+
+
+
+
+
+/* Contact section */
+
+.contact-pic {
+  width: 400px;
+  height: 400px;
+}
